@@ -9,10 +9,10 @@ questions.forEach((question, index) => {
 
         if (answer.style.display === "block") {
             answer.style.display = "none";
-            toggleBtn.src = "/faq-accordion-main/assets/images/icon-plus.svg";
+            toggleBtn.src = "assets/images/icon-plus.svg";
         } else {
             answer.style.display = "block";
-            toggleBtn.src = "/faq-accordion-main/assets/images/icon-minus.svg";
+            toggleBtn.src = "assets/images/icon-minus.svg";
         }
     });
 });
